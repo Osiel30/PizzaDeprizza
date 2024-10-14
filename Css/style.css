@@ -1,15 +1,13 @@
-/* Estilo general */
+
 body {
     background: url('../img/fondo.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
-    color: #f81313 !important; /* Fuerza el color blanco */
+    color: #f81313 !important; 
     font-weight: bold !important;
     margin: 0;
     padding: 0;
 }
-
-/* Encabezado */
 header {
     background-color: #d62828;
     padding: 10px 0;
@@ -17,38 +15,36 @@ header {
 }
 
 header h1 {
-    color: #ff0000; /* Color blanco */
+    color: #ff0000; 
     margin: 0;
-    font-weight: bold; /* Negrita */
-    font-size: 2rem; /* Tamaño de letra más grande */
+    font-weight: bold; 
+    font-size: 2rem; 
 }
 
 header nav a {
-    color: #fb0e0e; /* Color blanco */
+    color: #fb0e0e; 
     text-decoration: none;
     margin: 0 10px;
-    font-weight: bold; /* Negrita */
-    font-size: 1.2rem; /* Tamaño de letra más grande */
+    font-weight: bold; 
+    font-size: 1.2rem; 
 }
 
 header nav a:hover {
     color: #f4a261;
 }
 
-/* Logo */
 .logo-container .logo {
     width: 150px;
 }
 
-/* Estilos para el catálogo de productos */
 h2 {
-    color: #e41111; /* Color blanco */
+    color: #e41111; 
     background-color: #e63946;
     padding: 10px;
     text-align: center;
     border-radius: 8px;
-    font-weight: bold; /* Negrita */
-    font-size: 1.5rem; /* Tamaño de letra más grande */
+    font-weight: bold; 
+    font-size: 1.5rem; 
 }
 
 .product-list {
@@ -74,34 +70,33 @@ h2 {
 }
 
 .product-item h3 {
-    font-size: 1.5rem; /* Tamaño de letra más grande */
+    font-size: 1.5rem; 
     margin: 10px 0;
-    font-weight: bold; /* Negrita */
-    color: #cc0e0e; /* Color blanco */
+    font-weight: bold; 
+    color: #cc0e0e; 
 }
 
 .product-item p {
-    font-size: 1rem; /* Tamaño de letra más grande */
-    color: #fe0f0f; /* Color blanco */
-    font-weight: bold; /* Negrita */
+    font-size: 1rem; 
+    color: #fe0f0f; /
+    font-weight: bold; 
 }
 
 .product-item .btn {
     background-color: #2a9d8f;
-    color: #dc0a0a; /* Color blanco */
+    color: #dc0a0a; 
     padding: 8px 16px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     text-decoration: none;
-    font-weight: bold; /* Negrita */
+    font-weight: bold; 
 }
 
 .product-item .btn:hover {
     background-color: #21867a;
 }
 
-/* Estilos para formularios de login y registro */
 .login-container, .register-container {
     background-color: rgba(225, 22, 22, 0.9);
     max-width: 400px;
@@ -118,9 +113,9 @@ h2 {
 
 label {
     margin: 10px 0 5px;
-    font-weight: bold; /* Negrita */
-    font-size: 1rem; /* Tamaño de letra más grande */
-    color: #ffffff; /* Color blanco */
+    font-weight: bold; 
+    font-size: 1rem; 
+    color: #ffffff;
 }
 
 input[type="text"], input[type="password"], input[type="email"], input[type="date"] {
@@ -132,40 +127,39 @@ input[type="text"], input[type="password"], input[type="email"], input[type="dat
 
 .btn {
     background-color: #2a9d8f;
-    color: #ffffff; /* Color blanco */
+    color: #ffffff; 
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
-    font-weight: bold; /* Negrita */
+    font-weight: bold; 
 }
 
 .btn:hover {
     background-color: #21867a;
 }
 
-/* Estilo del botón de ver catálogo */
+/
 .btn-catalogo {
-    display: block; /* Hace que el botón sea un bloque */
-    margin: 20px auto; /* Centra el botón */
-    padding: 10px 20px; /* Agrega espaciado al botón */
-    background-color: #d62828; /* Color de fondo del botón */
-    color: #ffffff; /* Color blanco */
-    text-align: center; /* Centra el texto */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    text-decoration: none; /* Sin subrayado en el texto */
-    cursor: pointer; /* Cambia el cursor al pasar el mouse */
-    font-weight: bold; /* Negrita */
+    display: block; 
+    margin: 20px auto; 
+    padding: 10px 20px; 
+    background-color: #d62828; 
+    color: #ffffff; 
+    text-align: center; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; /
+    cursor: pointer; 
+    font-weight: bold; 
 }
 
 .btn-catalogo a {
-    color: #ffffff; /* Color blanco del texto del enlace */
-    text-decoration: none; /* Sin subrayado */
+    color: #ffffff; 
+    text-decoration: none; 
 }
 
-/* Estilos para la página de detalles del producto */
 .product-detail-container {
     display: flex;
     justify-content: space-between;
@@ -193,47 +187,46 @@ input[type="text"], input[type="password"], input[type="email"], input[type="dat
 .product-info h2 {
     font-size: 24px;
     color: #d62828;
-    font-weight: bold; /* Negrita */
+    font-weight: bold; 
 }
 
 .product-info p {
     margin: 10px 0;
-    font-size: 1rem; /* Tamaño de letra más grande */
-    color: #ffffff; /* Color blanco */
-    font-weight: bold; /* Negrita */
+    font-size: 1rem; 
+    color: #ffffff; 
+    font-weight: bold; 
 }
 
 .product-info .btn {
     background-color: #2a9d8f;
-    color: #ffffff; /* Color blanco */
+    color: #ffffff; 
     padding: 12px 20px;
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
     border: none;
     transition: background-color 0.3s ease;
-    font-weight: bold; /* Negrita */
+    font-weight: bold; 
 }
 
 .product-info .btn:hover {
     background-color: #1f776b;
 }
 
-/* Pie de página */
 footer {
     text-align: center;
     background-color: #264653;
-    color: #ffffff; /* Color blanco */
+    color: #ffffff; 
     padding: 10px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
-    font-weight: bold; /* Negrita */
+    font-weight: bold; 
 }
 
 footer p {
     margin: 0;
-    font-weight: bold; /* Negrita */
-    font-size: 1rem; /* Tamaño de letra más grande */
-    color: #ffffff; /* Color blanco */
+    font-weight: bold; 
+    font-size: 1rem; 
+    color: #ffffff;
 }
