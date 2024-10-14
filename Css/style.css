@@ -3,7 +3,7 @@ body {
     background: url('../img/fondo.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
-    color: #ffffff !important; /* Fuerza el color blanco */
+    color: #f81313 !important; /* Fuerza el color blanco */
     font-weight: bold !important;
     margin: 0;
     padding: 0;
@@ -17,14 +17,14 @@ header {
 }
 
 header h1 {
-    color: #ffffff; /* Color blanco */
+    color: #ff0000; /* Color blanco */
     margin: 0;
     font-weight: bold; /* Negrita */
     font-size: 2rem; /* Tamaño de letra más grande */
 }
 
 header nav a {
-    color: #ffffff; /* Color blanco */
+    color: #fb0e0e; /* Color blanco */
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold; /* Negrita */
@@ -42,7 +42,7 @@ header nav a:hover {
 
 /* Estilos para el catálogo de productos */
 h2 {
-    color: #ffffff; /* Color blanco */
+    color: #e41111; /* Color blanco */
     background-color: #e63946;
     padding: 10px;
     text-align: center;
@@ -59,8 +59,8 @@ h2 {
 }
 
 .product-item {
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid #ddd;
+    background-color: rgba(238, 11, 11, 0.9);
+    border: 1px solid #e70f0f;
     border-radius: 8px;
     padding: 15px;
     text-align: center;
@@ -77,18 +77,18 @@ h2 {
     font-size: 1.5rem; /* Tamaño de letra más grande */
     margin: 10px 0;
     font-weight: bold; /* Negrita */
-    color: #ffffff; /* Color blanco */
+    color: #cc0e0e; /* Color blanco */
 }
 
 .product-item p {
     font-size: 1rem; /* Tamaño de letra más grande */
-    color: #ffffff; /* Color blanco */
+    color: #fe0f0f; /* Color blanco */
     font-weight: bold; /* Negrita */
 }
 
 .product-item .btn {
     background-color: #2a9d8f;
-    color: #ffffff; /* Color blanco */
+    color: #dc0a0a; /* Color blanco */
     padding: 8px 16px;
     border: none;
     border-radius: 4px;
@@ -103,7 +103,7 @@ h2 {
 
 /* Estilos para formularios de login y registro */
 .login-container, .register-container {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(225, 22, 22, 0.9);
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
